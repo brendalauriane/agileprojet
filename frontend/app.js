@@ -68,7 +68,7 @@ document.querySelectorAll(".col").forEach(col => {
   });
 });
 
-// 🤖 Suggestion IA
+// 🤖 Suggestion IA simple
 function suggestAI() {
   const desc = document.getElementById("desc").value.toLowerCase();
 
