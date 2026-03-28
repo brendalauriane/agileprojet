@@ -34,11 +34,6 @@ Permet de créer des tickets, gérer un tableau Kanban, et analyser automatiquem
 
 ---
 
-## Cahier de charges
-Pour le cahier de charges complet, voir [CAHIER_DE_CHARGES.md](./CAHIER_DE_CHARGES.md)
-
----
-
 ## Sprints
 - **Sprint 1** : Core System (CRUD tickets + Kanban simple)
 - **Sprint 2** : IA Assistant (analyse automatique des tickets)
