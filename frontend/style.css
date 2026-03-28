@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+}
+
+button {
+  padding: 15px 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.board {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+/* Colonnes */
+.col {
+  flex: 1;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 200px;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+}
+
+/* Couleurs demandées */
+#todo {
+  border-top: 15px solid #3b82f6; /* bleu */
+}
+
+#inprogress {
+  border-top: 15px solid #facc15; /* jaune */
+}
+
+#done {
+  border-top: 15px solid #22c55e; /* vert */
+}
+
+/* Tickets */
+.ticket {
+  background: white;
+  color: black;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: grab;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+.ticket:active {
+  cursor: grabbing;
+  transform: rotate(2deg) scale(1.05);
+}

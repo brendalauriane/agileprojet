@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion Kanban with AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Gestion Kanban with AI</h1>
+
+<div class="form">
+  <input id="title" placeholder="Titre">
+  <input id="desc" placeholder="Description">
+  <button onclick="suggestAI()">IA Assist</button>
+  <button onclick="createTicket()">Créer</button>
+</div>
+
+<div class="board">
+  <div class="col" id="todo">
+    <h2>To Do</h2>
+  </div>
+
+  <div class="col" id="inprogress">
+    <h2>In Progress</h2>
+  </div>
+
+  <div class="col" id="done">
+    <h2>Done</h2>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
